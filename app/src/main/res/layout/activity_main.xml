@@ -27,7 +27,8 @@
         android:layout_height="wrap_content"
         android:hint="Введите имя пользователя"
         android:inputType="textPersonName"
-        android:layout_marginBottom="4dp"/>
+        android:layout_marginBottom="4dp"
+        android:minHeight="48dp"/>
 
     <TextView
         android:id="@+id/tvUsernameError"
@@ -49,7 +50,8 @@
         android:layout_height="wrap_content"
         android:hint="Введите Email"
         android:inputType="textEmailAddress"
-        android:layout_marginBottom="4dp"/>
+        android:layout_marginBottom="4dp"
+        android:minHeight="48dp"/>
 
     <TextView
         android:id="@+id/tvEmailError"
@@ -71,7 +73,8 @@
         android:layout_height="wrap_content"
         android:hint="Введите пароль"
         android:inputType="textPassword"
-        android:layout_marginBottom="4dp"/>
+        android:layout_marginBottom="4dp"
+        android:minHeight="48dp"/>
 
     <TextView
         android:id="@+id/tvPasswordError"
@@ -93,7 +96,8 @@
         android:layout_height="wrap_content"
         android:hint="Подтвердите пароль"
         android:inputType="textPassword"
-        android:layout_marginBottom="4dp"/>
+        android:layout_marginBottom="4dp"
+        android:minHeight="48dp"/>
 
     <TextView
         android:id="@+id/tvConfirmPasswordError"
